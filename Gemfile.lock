@@ -100,6 +100,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -133,3 +134,4 @@ DEPENDENCIES
   middleman
   middleman-deploy
   middleman-livereload
+  rake
