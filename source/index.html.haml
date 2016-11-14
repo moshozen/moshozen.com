@@ -6,4 +6,10 @@
     = stylesheet_link_tag 'index'
   %body
     .content
-    =partial 'analytics'
+      %img.logo{ src: 'images/moshozen-inverse.svg' }
+      .text
+        %p Moshozen is a full-service mobile development consultancy located in Toronto
+        %p We specialize in iOS development with a particular focus on medical and health apps for both clincal and consumer audiences
+        %p We'll work with you to develop a relationship tailored to your specific needs; anything from basic team augmentation to turnkey design / build, local or remote
+        %p Check out our #{link_to 'open source work', 'http://github.com/moshozen'} or #{link_to 'get in touch', 'mailto:hello@moshozen.com'} to let us tell you more about what we can do for you
+    = partial 'analytics'
