@@ -1,15 +1,15 @@
 !!! 5
 %html{lang: 'en'}
   %head
-    %meta{charset: 'utf-8'}/
-    %title Moshozen Inc
+    %meta{charset: 'utf-8', name: 'viewport', content: 'width=device-width', 'initial-scale': '1', description: 'Moshozen Inc is a mobile healthcare consultancy located in Toronto'}/
+    %title Moshozen Inc - Toronto Based Mobile Healthcare Consultancy
     = stylesheet_link_tag 'index'
   %body
     .content
       %img.logo{ src: 'images/moshozen-inverse.svg' }
       .text
-        %p Moshozen is a full-service mobile development consultancy located in Toronto
-        %p We specialize in iOS development with a particular focus on medical and health apps for both clincal and consumer audiences
-        %p We'll work with you to develop a relationship tailored to your specific needs; anything from basic team augmentation to turnkey design / build, local or remote
-        %p Check out our #{link_to 'open source work', 'http://github.com/moshozen'} or #{link_to 'get in touch', 'mailto:hello@moshozen.com'} to let us tell you more about what we can do for you
+        %p Moshozen is a full-service mobile development consultancy located in Toronto, consisting of Mat Trudel as sole principal
+        %p We specialize in iOS and backend development with a particular focus on medical and health apps for both clincal and consumer audiences
+        %p Read more #{link_to 'about Mat', '/resume.pdf'}, or take a look at our #{link_to 'LinkedIn', 'https://www.linkedin.com/in/mattrudel/'} and #{link_to 'GitHub', 'https://github.com/moshozen'} profiles
+        %p #{link_to 'hello@moshozen.com', 'mailto:hello@moshozen.com', class: :email} 
     = partial 'analytics'
